@@ -432,3 +432,4 @@ chrome.storage.local.get(["setting"], (d) => {
         },true);
     }
 });
+
