@@ -1,0 +1,89 @@
+html{
+    background-color: rgb(45, 45, 45);
+}
+
+li{
+    color: rgb(187, 187, 187);;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 53, 26);
+    background-color: rgb(67, 67, 67);
+    width: auto;
+    box-shadow: 3px 3px 6px rgb(0, 0, 0);
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+    align-items: center;
+}
+
+button{
+    display: inline-block;
+}
+
+.list1,.list2,.list3,.list4,.list5,.list6,.list7,.list8{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#span1,#span2,#span3,#span4,#span5,#span6,#span7,#span8{
+    user-select: none;
+}
+
+a{
+    color: rgb(128, 140, 255);
+}
+
+.localsetting{
+    font-size: 12.5px;
+    color: rgb(202, 187, 147);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.localsetting input{align-items: center;
+    border-color: rgb(243, 249, 255);
+    border-radius: 5px;
+    transform: scale(0.85);
+    transform-origin:left center;
+    width: 55px;
+}
+
+.credit{
+    padding-top: 5px;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+}
+
+/* .query{
+    box-shadow: 3px 3px 6px rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(85, 78, 78);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.query label{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.query input{
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    flex: 1;
+} */
